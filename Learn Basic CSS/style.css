@@ -2,7 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar{
@@ -27,4 +27,49 @@
     text-decoration: none;
     color:#4e4e4e;
     padding-top:15px
+}
+
+.headerImg{
+    width:100%;
+    max-height:700px;
+}
+
+.headerWrapper{
+    position: relative;
+}
+
+.headerTitle{
+    position: absolute;
+    top:240px;
+    color: #fff;
+    font-weight:100;
+    font-size:50px;
+    margin-left:30px;
+    text-transform: uppercase;
+}
+
+.headerText{
+    position:absolute;
+    top:320px;
+    font-weight:100;
+    font-size:30px;
+    color:#fff;
+    margin-left:30px;
+}
+
+.headerImgBtn{
+    position:absolute;
+    left:0;
+    top:400px;
+    border:1px solid #4e4e4e;
+    width:200px;
+    background-color:darkgrey;
+    padding:16px 20px;
+    margin-left:30px;
+    color:#fff;
+    font-size:15px;
+}
+
+.headerImgBtn:hover{
+    font-weight:600;
 }
