@@ -158,3 +158,18 @@
     width:100%;
     height:400px;
 }
+
+.gallerySec{
+    margin-top:70px;
+}
+
+.portfolioGalleryImg{
+    width:300px;
+}
+
+.rowGallery{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
