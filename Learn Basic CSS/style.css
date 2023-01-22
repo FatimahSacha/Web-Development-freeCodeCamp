@@ -3,6 +3,11 @@
     margin:0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-y:auto
+}
+
+.wrapper{
+    margin-bottom:90px;
 }
 
 .navbar{
@@ -72,4 +77,47 @@
 
 .headerImgBtn:hover{
     font-weight:600;
+}
+
+.aboutSection{
+    margin-top:40px;
+}
+
+.aboutTitle{
+    text-align:center;
+    color:#4e4e4e;
+    font-weight:100;
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.aboutSubTitle{
+    text-align:center;
+    color:#4e4e4e;
+    font-weight:100;
+    font-size:18px;
+    margin-bottom: 60px;
+}
+
+.column{
+    float:left;
+    width:23%;
+    text-align: center;
+    padding-left:10px;
+    margin-left:20px;
+}
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.columnText{
+    font-size: 15px;
+    text-align:center;
+}
+
+.columnTitle{
+    margin-bottom:15px;
 }
