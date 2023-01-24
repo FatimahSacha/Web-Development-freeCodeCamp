@@ -8,42 +8,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="formTitle">
+    <div class="formContainer">
         <h1 class="title">Simple Contact Form</h1>
         <p class="formText">Please fill out the form below and a member of the team will get back to you</p>
    
 
     <form action="#" method="post">
         <label for="first-name">First Name:
-            <input type="text" id="first-name" name="first-name" placeholder="Please Enter Your Name Here" required>
+            <input  class="field" type="text" id="first-name" name="first-name" placeholder="First Name" required>
         </label>
 
         <label for="last-name">Last Name:
-            <input type="text" id="last-name" name="last-name" placeholder="Please Enter Your Last Name Here" required>
+            <input class="field" type="text" id="last-name" name="last-name" placeholder="Last Name" required>
         </label>
 
         <label for="email-address">Email Address:
-            <input type="email" id="email-address" name="email-address" placeholder="Please Enter Your Email Here" required >
+            <input class="field" type="email" id="email-address" name="email-address" placeholder="Please Enter Your Email Here" required >
         </label>
 
         <label for="telephone">Phone Number:
-            <input type="tel" id="telephone" name="telephone" placeholder="Please Enter Your Telephone Here" required>
+            <input class="field" type="tel" id="telephone" name="telephone" placeholder="Please Enter Your Telephone Here" required>
         </label>
 
-        <label for="male-gender">
-            <input type="radio" id="male-gender" name="gender"> Male:
-        </label>
-
-        <label for="female-gender">
-            <input type="radio" id="female-gender" name="gender"> Female:
-        </label>
-
-        <label for="other-gender">
-            <input type="radio" id="other-gender" name="gender">Other
-        </label>
-
-        <label for="enquiry-type">
-            <select name="enquiry-type" id="enquiry-type">
+        <label for="enquiry-type">Enquiry Type:
+            <select name="enquiry-type" id="enquiry-type" class="enquiries-dp">
                 <option value="business">Business</option>
                 <option value="Personal">Personal</option>
                 <option value="security">Security</option>
@@ -51,6 +39,27 @@
                 <option value="extras">Other</option>
             </select>
         </label>
+
+        
+        <label for="male-gender">Gender: <br>
+            <input  type="radio" id="male-gender" name="gender"> Male
+        </label>
+
+        <label for="female-gender">
+            <input type="radio" id="female-gender" name="gender"> Female
+        </label>
+
+        <label for="other-gender">
+            <input type="radio" id="other-gender" name="gender"> Other
+        </label>
+
+        <label for="messages" class="message">Messages:
+            <textarea name="messages" id="messages" cols="30" rows="5" placeholder="Enter Your Message Here"></textarea>
+        </label>
+
+        <input type="submit" id="submit" name="submit" value="Submit">
+
+      
     </form>
 
     </div>
