@@ -1,0 +1,189 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.navbar{
+    width:100%;
+    height:70px;
+    box-shadow:3px 3px 15px rgba(0,0,0,0.25);
+    position: fixed;
+    top:0;
+    z-index: 9999;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.navbarTitle{
+    float:left;
+    font-size:25px;
+    font-weight:600;
+    padding-top:20px;
+    margin-left:40px;
+}
+
+.navbarLinks{
+    float:right;
+    font-size:17px;
+    font-weight:600;
+    margin-right:40px;
+    text-decoration: none;
+    color:#4e4e4e;
+    padding-top:20px
+}
+
+.headerImg{
+    width:100%;
+    max-height:700px;
+}
+
+.headerWrapper{
+    position: relative;
+}
+
+.headerTitle{
+    position: absolute;
+    top:240px;
+    color: #fff;
+    font-weight:100;
+    font-size:50px;
+    margin-left:30px;
+    text-transform: uppercase;
+}
+
+.headerText{
+    position:absolute;
+    top:320px;
+    font-weight:100;
+    font-size:30px;
+    color:#fff;
+    margin-left:30px;
+}
+
+.headerImgBtn{
+    position:absolute;
+    left:0;
+    top:400px;
+    border:1px solid #4e4e4e;
+    width:200px;
+    background-color:darkgrey;
+    padding:16px 20px;
+    margin-left:30px;
+    color:#fff;
+    font-size:15px;
+}
+
+.headerImgBtn:hover{
+    font-weight:600;
+}
+
+.aboutSection{
+    margin-top:70px;
+    margin-bottom:70px;
+}
+
+.aboutTitle{
+    text-align:center;
+    color:#4e4e4e;
+    font-weight:100;
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.aboutSubTitle{
+    text-align:center;
+    color:#4e4e4e;
+    font-weight:100;
+    font-size:18px;
+    margin-bottom: 60px;
+}
+
+.column{
+    float:left;
+    width:23%;
+    text-align: center;
+    padding-left:10px;
+    margin-left:30px;
+}
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.columnText{
+    font-size: 16px;
+    text-align:center;
+}
+
+.columnTitle{
+    margin-bottom:15px;
+}
+
+.respectIcon, .ambitionIcon, .responsiveIcon, .passionIcon{
+    width:70px;
+    height:70px;
+}
+
+.designSec{
+    display:flex;
+    background-color: #ededed;
+    padding:90px 30px;
+    align-items: center;
+}
+
+.designTitle{
+    font-weight:100;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.designText{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.designBtn{
+    padding: 16px;
+    width:200px;
+    font-size: 17px;;
+}
+
+.designImgSec{
+    width:100%;
+    padding-left:980px;
+}
+
+.gallerySec{
+    margin-top:70px;
+    margin-bottom:70px;
+}
+
+.portfolioGalleryImg{
+    width:500px;
+}
+
+.rowGallery{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.techFooter{
+    background-color: #ededed;
+    padding:30px;
+}
+
+.footerText{
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.footerTextCopyright{
+    text-align: center;
+}
