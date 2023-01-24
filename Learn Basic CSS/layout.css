@@ -3,7 +3,6 @@
     margin:0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 .navbar{
@@ -154,8 +153,7 @@
 }
 
 .designImgSec{
-    width:100%;
-    padding-left:980px;
+    padding-left:340px;
 }
 
 .gallerySec{
@@ -164,7 +162,7 @@
 }
 
 .portfolioGalleryImg{
-    width:500px;
+    width:400px;
 }
 
 .rowGallery{
