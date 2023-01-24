@@ -14,7 +14,7 @@ body{
     padding:40px 20px;
     margin:0 auto;
     background-color:#fff;
-    font-size:25px;
+    font-size:23px;
 }
 
 
@@ -27,7 +27,7 @@ body{
 }
 
 .mainText{
-    font-size:24px;
+    font-size:22px;
     line-height:37px;
     max-width:94%; 
 }
@@ -37,14 +37,14 @@ body{
 }
 
 .languageTitle{
-    font-size:27px;
+    font-size:24px;
     margin-bottom:50px;
 }
 
 .pink{
     background-color: rgb(216, 103, 103);
     color:#fff;
-    font-size:24px;
+    font-size:22px;
     padding:25px 20px;
     width:90px;
     margin-left:10px;
