@@ -8,23 +8,24 @@
     <link rel="stylesheet" href="survey.css">
 </head>
 <body>
-  <h1 id="title">freeCodeCamp Survey Form</h1>
-  <p id="description">Use this form to give feedback in order to improve the platform.</p>
+  <div class="formContainer">
+  <h1 id="title" class="surveyTitle">freeCodeCamp Survey Form</h1>
+  <p id="description" class="surveyDescription">Use this form to give feedback in order to improve the platform.</p>
 
   <form action="#" id="survey-form">
-    <label for="name" id="name-label">
-      <input type="text" id="name" name="name" required placeholder="Enter your Name">
+    <label for="name" id="name-label">Name:
+      <input class="inputField" type="text" id="name" name="name" required placeholder="Enter your Name">
     </label>
 
-     <label for="email" id="email-label">
-      <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+     <label for="email" id="email-label">Email
+      <input class="inputField" type="email" id="email" name="email" placeholder="Enter your Email" required>
     </label>
 
-    <label for="number" id="number-label">
-      <input type="number" id="number" name="number" min="16" max="120" placeholder="Age" required>
+    <label for="number" id="number-label">Age
+      <input class="inputField" type="number" id="number" name="number" min="16" max="120" placeholder="Age" required>
     </label>
 
-    <label for="dropdown">
+    <label for="dropdown">Favourite Course
       <select id="dropdown" name="dropdown">
         <option value="">Select One</option>
         <option value="web-design">Web design</option>
@@ -34,35 +35,43 @@
       </select>
       </label>
 
-      <label for="yes">On average how would you rate freeCodeCamp:
-        <input type="radio" id="yes" name="rating" value="yes"> Very Good
+      <label for="yes">On average how would you rate freeCodeCamp:<br>
+        <input class="ratings btn-one" type="radio" id="yes" name="rating" value="yes"> Very Good
         </label>
 
         
       <label for="middle">
-        <input type="radio" id="Middle" name="rating" value="middle"> Not sure
+        <input class="ratings" type="radio" id="Middle" name="rating" value="middle"> Not sure
         </label>
 
         
       <label for="no">
-        <input type="radio" id="no" name="rating" value="no"> Not my Thing
+        <input class="ratings" type="radio" id="no" name="rating" value="no"> Not my Thing
         </label>
 
-        <label for="github">Favourite Feature
-          <input type="checkbox" id="github" value="github" name="feature"> Github
+        <label for="github">Favourite Feature:<br>
+          <input class="ratings btn-one" type="checkbox" id="github" value="github" name="feature"> Github
         </label>
 
-          <label for="tutorials">Favourite Feature
-          <input type="checkbox" id="tutorials" value="tutorials" name="feature"> Tutorials
+          <label for="tutorials">
+          <input class="ratings" type="checkbox" id="tutorials" value="tutorials" name="feature"> Tutorials
         </label>
 
-          <label for="videos">Favourite Feature
-          <input type="checkbox" id="videos" value="videos" name="feature"> Videos
+          <label for="videos">
+          <input class="ratings" type="checkbox" id="videos" value="videos" name="feature"> Videos
         </label>
 
-          <label for="open-source">Favourite Feature
-          <input type="checkbox" id="open-source" value="open-source" name="feature"> Open source
+          <label for="open-source">
+          <input class="ratings" type="checkbox" id="open-source" value="open-source" name="feature"> Open source
         </label>
+
+        <label for="comments">Additonal Message:
+          <textarea name="comments" id="comments" cols="20" rows="3">Comments</textarea>
+        </label>
+
+        <input type="submit" name="submit" id="submit" value="Submit">
   </form>
+  </div>
+  
 </body>
 </html>
