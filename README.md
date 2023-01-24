@@ -3,5 +3,4 @@ This Repo will be about my progress in learning front end development technologi
 
 Based on what I have learnt I will create my own mini projects starting off with the basics and then building upon it whilst I go through the <strong>Responsive Design Web Course</strong> by FreeCodeCamp
 
-<button><a href="Learn HTML\index.html"></a></button>
 
