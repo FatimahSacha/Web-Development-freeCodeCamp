@@ -21,18 +21,33 @@ header{
     height:70px;
 }
 
-.headerTitle{
+#title{
     color:#fff;
     margin-left:10px;
     font-size:35px;
     letter-spacing: 0.9px;
     text-align: left;
     text-transform:uppercase;
+    padding-right:350px;
 }
 
 nav > ul{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    list-style:none;
+    margin-right:30px;
+}
+
+nav li a{
+    color:#fff;
+    text-decoration: none;
+    margin-left:30px;
+    font-size:20px;
+
+}
+
+.heroBanner{
+    width:100%;
+    max-height:600px;;
 }
