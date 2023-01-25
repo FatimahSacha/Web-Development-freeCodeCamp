@@ -93,3 +93,43 @@ nav li a{
 .aboutChildOne h3, .aboutChildOne p, .aboutChildTwo h3, .aboutChildOne p, .aboutChildThree h3, .aboutChildThree p{
     text-align: center;
 }
+
+.memorableMomentsTitle{
+    margin:50px auto;
+    text-align:center;
+    text-transform: uppercase;
+    border-top:3px solid #c70101;
+    border-bottom: 3px solid #c70101;
+    padding:7px 0px;
+    width:27%;
+}
+
+.moments, .momentsThree{
+    width: 100%;
+    background-color: #ededed;
+    height:320px;
+    padding:30px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: stretch;
+}
+
+.moments h3, .momentsTwo h3, .momentsThree h3{
+    margin-bottom:10px;
+    text-transform: uppercase;
+    font-size:20px;
+}
+
+.moments p, .momentsTwo p, .momentsThree p{
+    max-width:80%;
+    margin-bottom:10px;
+}
+
+.momentsTwo{
+    width: 100%;
+    background-color:#fff;
+    height:320px;
+    padding:30px;
+    display:flex;
+    justify-content: stretch;
+}
