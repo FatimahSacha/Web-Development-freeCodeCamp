@@ -51,5 +51,49 @@ ul li a{
     font-weight: 600;
     margin-left:30px;
     font-size:20px;
-  
+}
+
+.heroBanner{
+    position:relative;
+    text-align: center;
+}
+
+.bannerImg{
+    max-height:500px;
+    width:100%;
+}
+
+.bannerInfo{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.bannerTitle{
+    font-size:50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.bannerText{
+    font-size:17px;
+    margin-bottom:15px;
+    font-weight: 600;
+}
+
+.search{
+    width: 90%;
+    height:50px;
+    border-radius: 15px;
+    border:2px solid #373737;
+    padding: 16px 20px;
+    font-size: 17px;
+    margin:0;
+    overflow: hidden;
+    background-color: #fff;
 }
