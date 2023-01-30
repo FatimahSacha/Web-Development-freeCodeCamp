@@ -22,6 +22,7 @@ nav{
     color:rgb(36, 36, 36);
     font-weight: 700;
     margin-bottom: 40px;
+    font-size:30px;
 }
 
 
@@ -42,3 +43,63 @@ nav li a:hover{
     font-weight: 700;
 }
 
+
+#main-doc{
+    position:absolute;
+    top:20px;
+    margin-left:350px;
+    max-width:70%;
+    overflow-x: hidden;
+    
+}
+
+article p{
+    margin:20px 0;
+    line-height:30px;
+    font-size:17px;
+    color:#4e4e4e;
+    overflow-wrap: break-word;
+}
+
+section header h1{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    
+}
+
+article ol li{
+    margin-bottom:10px;
+    margin-left:50px;
+    color:#4e4e4e;
+}
+
+code{
+    color:rgb(101, 4, 4);
+    display:block;
+    margin-left:50px;
+    background-color: #ededed;
+    width:70%;
+    word-break: normal;
+    white-space: pre-line;
+    padding:30px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:1024px){
+    #main-doc{
+        max-width:60%;
+        margin-right:30px;
+    }
+}
+
+@media(max-width:800px){
+    #main-doc{
+        margin-left:260px;
+    }
+}
+
+@media(max-width:600px){
+    #main-doc{
+        margin-left:200px;
+    }
+}
