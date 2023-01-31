@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="product.css">
 </head>
 <body>
@@ -18,7 +21,7 @@
                 <li><a href="product.html" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#bakes" class="nav-link">Bakes</a></li>
-                <li><a href="" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -50,7 +53,7 @@
         <section id="bakes">
             <div class="bakesSec">
                 
-                <div class="wrapperBakes">
+                <div class="wrapper">
                     <h2 class="title">Our Bakes</h2>
                     <p class="subtitle">Freshly Made Everyday</p>
 
@@ -83,13 +86,12 @@
                 <img src="./images/strawberry dessert.jpeg" alt="">
             </div>
 
-            <div class="aboutSec">
-                <iframe width="29%" height="700px;" src="https://www.youtube.com/embed/vXzRCDjOW8w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="videoSec">
+                <iframe width="35%" height="700px;" src="https://www.youtube.com/embed/vXzRCDjOW8w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
                   
                 
                 <div class="wrapper">
                     <h2 class="title">How It Works</h2>
-                    <p class="subtitle">Running Since 2016</p>
 
                     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa architecto nobis deleniti laborum fuga natus nemo ipsam accusantium dolorum adipisci, ex, voluptatem rem, sed incidunt quae cumque veritatis velit ea maiores sapiente delectus soluta exercitationem. Vero inventore iusto corporis error, sequi reprehenderit soluta adipisci mollitia!</p>
 
@@ -101,5 +103,58 @@
         </section>
 
     </main>
+
+    <section id="contact">
+        <div class="ContactSec">
+            <h2 class="contactTitle">Contact</h2>
+        
+
+            <div class="formSec">
+        <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+            <label for="name">Name
+                <input type="text" name="name" id="name" Placeholder="Name">
+            </label>
+
+            <label for="email">Email Address
+                <input type="email" id="email" name="email" Placeholder="Email">
+            </label>
+
+            <label for="category">Baking category
+                <select name="category" id="category">
+                    <option value="">Select an Option</option>
+                    <option value="macarons">Macarons</option>
+                    <option value="cake">Cake</option>
+                    <option value="Cupcake">Cupcake</option>
+                    <option value="dessert">Dessert Cups</option>
+                    <option value="tarts">Tarts</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+
+            <label for="date">Date
+                <input type="date" id="date" name="date">
+            </label>
+
+            <label for="comments">Message / Special Requiremnets
+                <textarea name="comments" id="comments" cols="6" rows="2"></textarea>
+            </label>
+
+            <input type="submit" name="send" id="send" value="Submit">
+        </form>
+            </div>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footerText">Created By Fatimah Sacha</div>
+        <p class="footerText">Visit my <a href="https://github.com/FatimahSacha">Github Profile</a></p>
+        <p class="footerText Copyright">&copy; 2023 - All Rghts Are Reserved</p>
+        <div class="scoialIcons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </footer>
 </body>
 </html>
